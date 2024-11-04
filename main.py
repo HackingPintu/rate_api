@@ -10,7 +10,7 @@ with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 # Load the Excel file with the specified engine
-df = pd.read_excel('D://Excel/j2.xlsx', engine='openpyxl')
+df = pd.read_excel('j2.xlsx', engine='openpyxl')
 
 # Define the FastAPI app
 app = FastAPI()
